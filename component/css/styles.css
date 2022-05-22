@@ -1,0 +1,75 @@
+.containerMain {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 40%;
+    height: 60%;
+    background-color: #175fac;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+}
+
+.containerCard{
+    width: 70%;
+    height: 90%;
+    background-color: white;
+}
+
+.card {
+    width: 100%;
+    height: 25%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.card:not(:last-child) {
+    border-bottom: 1px solid black;
+}
+
+.containerImage {
+    width: 20%;
+    height: 80%;
+    background-color: antiquewhite;
+    border-radius: 50%;
+    margin: 10px 10px 10px 20px;
+}
+
+.containerImage > .image {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+.information {
+    width: 60%;
+    height: 80%;
+    background-color: white;
+  
+    
+}
+.name, .address {
+    margin-left: 10px;
+}
+
+.name > p {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    margin-block-end: 0px;
+}
+
+.address > p {
+    font-family: 'Oswald', sans-serif;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+
+
